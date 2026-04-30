@@ -1,0 +1,12 @@
+.am-panel {
+  padding: 32px 24px !important;
+  border: 2px solid #e5e5e5;
+  border-radius: 8px;
+  min-height: 450px;
+  max-height: max-content;
+}
+
+.am-panel .panel-title {
+  font-size: 25px;
+  font-weight: 700;
+}
