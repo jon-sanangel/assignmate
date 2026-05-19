@@ -1,0 +1,15 @@
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #007bff;
+  margin: 0 auto;
+}
+
+.task-table {
+  max-height: 600px; 
+  border: 2px solid rgb(211, 211, 211); 
+  border-radius: 6px;
+  overflow: hidden; 
+  border-collapse: separate;
+}
