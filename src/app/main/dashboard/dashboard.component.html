@@ -1,18 +1,18 @@
 <section>
-  <div class="container d-flex flex-column justify-content-center mt-3">
+  <div class="container-fluid d-flex flex-column justify-content-center mt-4 px-md-5">
     <div class="row">
-      <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
+      <div class="d-flex flex-wrap align-items-center justify-content-between mb-2 gap-2">
         <div>
           <h1>Dashboard</h1>
           <p>Hello there! Here's an overview of your tasks.</p>
         </div>
-        <button type="button" class="default-btn"><i class="fa-solid fa-plus"></i>Add New Task</button>
+        <button type="button" class="default-btn mb-3 mb-sm-0"><i class="fa-solid fa-plus"></i>Add New Task</button>
       </div>
     </div>
-    <app-task-stats></app-task-stats>
+    <app-task-stats class="d-flex"></app-task-stats>
     <div class="row">
-      <app-task-list class="col-sm-4"></app-task-list>
-      <app-task-details class="col-sm-8"></app-task-details>
+      <app-task-list class="col-lg-4"></app-task-list>
+      <app-task-details class="col-lg-8"></app-task-details>
     </div>
   </div>
 </section>
