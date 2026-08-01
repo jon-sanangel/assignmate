@@ -6,13 +6,15 @@
           <h1>Dashboard</h1>
           <p>Hello there! Here's an overview of your tasks.</p>
         </div>
-        <button type="button" class="default-btn mb-3 mb-sm-0"><i class="fa-solid fa-plus"></i>Add New Task</button>
+        <button type="button" class="default-btn mb-3 mb-sm-0" (click)="addNewTask()"><i class="fa-solid fa-plus"></i>Add New Task</button>
       </div>
     </div>
     <app-task-stats class="d-flex"></app-task-stats>
     <div class="row">
       <app-task-list class="col-lg-4"></app-task-list>
-      <app-task-details class="col-lg-8"></app-task-details>
+      <app-task-details class="col-lg-8" >
+        <p #msgSamp>EXAMPLE</p>
+      </app-task-details>
     </div>
   </div>
 </section>

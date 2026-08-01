@@ -16,7 +16,6 @@ export class TaskListComponent implements OnInit {
   ngOnInit(): void {
     this.AssignmateApiService.getTasks().subscribe(
       response => {
-        console.log(response);
         this.taskList = response;
       }
     )
