@@ -5,6 +5,7 @@ import { TaskListComponent } from './dashboard/task-list/task-list.component';
 import { TaskDetailsComponent } from './dashboard/task-details/task-details.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { TaskStatsComponent } from './dashboard/task-stats/task-stats.component';
+import { TaskDetailsContentComponent } from './dashboard/task-details/task-details-content/task-details-content.component';
 
 
 
@@ -13,7 +14,8 @@ import { TaskStatsComponent } from './dashboard/task-stats/task-stats.component'
     TaskListComponent,
     TaskDetailsComponent,
     DashboardComponent,
-    TaskStatsComponent
+    TaskStatsComponent,
+    TaskDetailsContentComponent
   ],
   imports: [
     CommonModule,

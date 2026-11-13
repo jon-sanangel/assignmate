@@ -1,4 +1,5 @@
 import { Component, OnInit, TemplateRef, ViewChild, AfterViewInit, Input, SimpleChanges, ContentChild, ElementRef } from '@angular/core';
+import { AssignmateApiService } from '../../../api-services/assignmate-api.service';
 
 @Component({
   selector: 'app-task-details',
@@ -9,7 +10,9 @@ export class TaskDetailsComponent implements OnInit, AfterViewInit {
   @ViewChild('taskContent') taskContent!: TemplateRef<any>;
   @ViewChild('noTask') noTask!: TemplateRef<any>;
 
-  @ContentChild('msgSamp') Samp!: ElementRef;
+  selectedTask$ = this.AssignmateApiService.selectedTask$;
+
+  constructor(private AssignmateApiService: AssignmateApiService) {}
 
   ngOnInit(): void {
   }
@@ -19,7 +22,6 @@ export class TaskDetailsComponent implements OnInit, AfterViewInit {
   }
 
   editTask() {
-    this.Samp.nativeElement 
   }
 
 }

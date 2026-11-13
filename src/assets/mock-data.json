@@ -15,9 +15,9 @@
         "assignee": "Front-end Developer",
         "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.",
         "status": "To Do",
-        "taskWeight": "High",
-        "taskDifficulty": "Easy",
-        "dueDate": "01/20/2026"
+        "taskWeight": "Low",
+        "taskDifficulty": "Medium",
+        "dueDate": "02/12/2026"
       },
       {
         "title": "Update User Document",
@@ -25,8 +25,8 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.",
         "status": "Completed",
         "taskWeight": "High",
-        "taskDifficulty": "Easy",
-        "dueDate": "01/20/2026"
+        "taskDifficulty": "Hard",
+        "dueDate": "11/23/2026"
       }
     ],
   "pageIndex": 1, 

@@ -1,0 +1,20 @@
+.section-border {
+  border-bottom: 1px solid #e5e5e5;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.user-icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 2px;
+  border-radius: 50%;
+  border: 1.5px solid gray;
+  font-size: 16px;
+  color: gray;
+}
+
+.table-header {
+  font-weight: 600;
+}

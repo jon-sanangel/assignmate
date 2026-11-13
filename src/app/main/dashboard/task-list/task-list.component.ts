@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { AssignmateApiService } from 'src/app/api-services/assignmate-api.service';
+
 import { TApiTask } from 'src/app/utils/models/data-types';
+import { taskDetails } from 'src/app/shared/dto/task-details';
 
 @Component({
   selector: 'app-task-list',
@@ -19,6 +21,11 @@ export class TaskListComponent implements OnInit {
         this.taskList = response;
       }
     )
+  }
+
+  selectTask(task: taskDetails) {
+    this.AssignmateApiService.setSelectedTask(task);
+    
   }
 
 }
