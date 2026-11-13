@@ -1,15 +1,7 @@
-export type Items = {
-  title: string,
-  assignee: string
-  description: string,
-  status: string,
-  taskWeight: string,
-  taskDifficulty: string,
-  dueDate: string
-}
+import { taskDetails } from "src/app/shared/dto/task-details"
 
 export type TApiTask = {
-  items: Items[],
+  items: taskDetails[],
   pageIndex: number,
   totalPages: number,
   hasPreviousPage: boolean,
